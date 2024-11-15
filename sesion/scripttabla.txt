@@ -1,0 +1,8 @@
+CREATE TABLE  `ejemplo`.`usuarios2` (
+`idusuario` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`usuario` VARCHAR( 20 ) NOT NULL ,
+`password` VARCHAR( 10 ) NOT NULL ,
+`descripcion` TEXT NULL ,
+`email` VARCHAR( 45 ) NULL ,
+`fecha` DATE NOT NULL
+) ENGINE = INNODB;
